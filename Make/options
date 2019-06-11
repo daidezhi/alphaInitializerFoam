@@ -1,0 +1,22 @@
+EXE_INC = \
+    -I$(LIB_SRC)/finiteVolume/lnInclude \
+    -I$(LIB_SRC)/dynamicFvMesh/lnInclude \
+    -I$(LIB_SRC)/meshTools/lnInclude \
+    -Ieigen3 \
+    -Ilibigl/include \
+    -Icork/include
+
+EXE_LIBS = \
+    -Lcork/lib \
+    -lfiniteVolume \
+    -ldynamicFvMesh \
+    -lmeshTools \
+    -lcork \
+    -lmpfr \
+    -lgmp \
+    -lboost_system \
+    -lboost_thread \
+    -lboost_chrono \
+    -lboost_date_time \
+    -lboost_atomic \
+    -lpthread
