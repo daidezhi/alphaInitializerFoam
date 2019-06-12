@@ -18,8 +18,8 @@ http://dx.doi.org/10.17632/wg4sx7sc57.1
 The basic idea of ```alphaInitializerFoam``` follows:
 
 * compute the intersection of the surface mesh (blue), which represents the liquid or gas shape, and each cell (red) in the mesh,
-![shape surface mesh and cell](https://en.wikipedia.org/wiki/Constructive_solid_geometry#/media/File:Boolean_union.PNG)
-![intersection](https://en.wikipedia.org/wiki/Constructive_solid_geometry#/media/File:Boolean_intersect.PNG)
+![shape surface mesh and cell](https://upload.wikimedia.org/wikipedia/commons/4/4a/Boolean_union.PNG)
+![intersection](https://upload.wikimedia.org/wikipedia/commons/0/0b/Boolean_intersect.PNG)
 * initialize the fraction value by normalizing the intersection volume with the cell one.
 
 
@@ -44,4 +44,4 @@ Please notify me via the email address below if you found any errors or bugs, an
 
 ## Contributors
 
-* Dezhi Dai, UT Arlington, dezhi.dai@mavs.uta.edu (developer)
+* Dezhi Dai, UT Arlington, dezhi.dai@mavs.uta.edu (Developer)
