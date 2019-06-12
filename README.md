@@ -22,14 +22,18 @@ The source code of ```alphaInitializerFoam``` is developed and maintained for th
 
 The basic idea of ```alphaInitializerFoam``` follows:
 
-* first compute the intersection of the surface mesh (blue), which represents the liquid or gas shape, and each cell (red) in the mesh,
+* first compute the intersection of the surface mesh (*blue*), which represents the liquid or gas shape, and each cell (*red*) in the mesh,
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Boolean_union.PNG" width="200">
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Boolean_intersect.PNG" width="200">
 
-    *Figures above is from [Wikipedia](https://en.wikipedia.org/wiki/Constructive_solid_geometry).*
-
 * then initialize the fraction value by normalizing the intersection volume with the cell one.
 
+*Figures above are from [Wikipedia](https://en.wikipedia.org/wiki/Constructive_solid_geometry).*
+
+
+The .stl surface mesh loading and intersection operation in ```alphaInitializerFoam``` are from [libigl](https://libigl.github.io/) and [Cork](https://github.com/gilbo/cork) libs, respectively.
+
+*It should be noted that the copies of [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page), [libigl](https://libigl.github.io/) and [Cork](https://github.com/gilbo/cork) that provided together with ```alphaInitializerFoam``` are **ONLY** used for simplifying the installation.*
 
 ## Installation
 
