@@ -78,8 +78,16 @@ format. The previous fluid shape will be retained.
 Using: OpenFOAM-v1812 (1812) (see www.OpenFOAM.com)
 Build: v1812
 Arch:  LSB;label=32;scalar=64
-
 ```
+
+**It should be noted that the parallel option has been disabled.**
+
+
+## Demos
+
+Three demo cases are available in http://dx.doi.org/10.17632/wg4sx7sc57.1 (```alphaInitializerFoamTut.tar.gz```).
+
+### ```damBreak```
 
 
 ## Contributors
