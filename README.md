@@ -20,7 +20,7 @@ The basic idea of ```alphaInitializerFoam``` follows:
 * first compute the intersection of the surface mesh (blue), which represents the liquid or gas shape, and each cell (red) in the mesh,
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Boolean_union.PNG" width="200">
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Boolean_intersect.PNG" width="200">
-*Figures above is from [Wikipedia](https://en.wikipedia.org/wiki/Constructive_solid_geometry).*
+_Figures above is from [Wikipedia](https://en.wikipedia.org/wiki/Constructive_solid_geometry)._
 
 * then initialize the fraction value by normalizing the intersection volume with the cell one.
 
