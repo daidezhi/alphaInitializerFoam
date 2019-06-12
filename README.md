@@ -17,10 +17,11 @@ http://dx.doi.org/10.17632/wg4sx7sc57.1
 
 The basic idea of ```alphaInitializerFoam``` follows:
 
-* compute the intersection of the surface mesh (blue), which represents the liquid or gas shape, and each cell (red) in the mesh,
-![shape surface mesh and cell](https://upload.wikimedia.org/wikipedia/commons/4/4a/Boolean_union.PNG)
-![intersection](https://upload.wikimedia.org/wikipedia/commons/0/0b/Boolean_intersect.PNG)
-* initialize the fraction value by normalizing the intersection volume with the cell one.
+* first compute the intersection of the surface mesh (blue), which represents the liquid or gas shape, and each cell (red) in the mesh,
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Boolean_union.PNG" width="200">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Boolean_intersect.PNG" width="200">
+
+* then initialize the fraction value by normalizing the intersection volume with the cell one.
 
 
 
