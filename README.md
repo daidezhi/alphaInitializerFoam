@@ -100,6 +100,8 @@ Three demo cases are available in http://dx.doi.org/10.17632/wg4sx7sc57.1 (```al
 
 ### ```dualPiDroplet```
 
+<img src="https://i.imgur.com/Dmr2J6h.png">
+
 
 ## Change Log
 
