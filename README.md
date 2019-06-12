@@ -2,13 +2,13 @@
 
 ## Introduction
 
-```alphaInitializerFoam``` is a pre-processing utility designed to initialize the alpha (VOF) field with an input shape surface mesh in .stl format. It works on  polyhedral unstructured meshes. The previous fluid shape will be retained.
+```alphaInitializerFoam``` is a pre-processing utility designed to initialize the alpha (VOF) field with an input shape surface mesh in .stl format. It works on polyhedral unstructured meshes. The previous fluid shape will be retained.
 
 Another copy of alphaInitializerFoam and demo cases can be found in:
 
-Dai, Dezhi (2019), “alphaInitializerFoam”, Mendeley Data, v1
+Dai, Dezhi (2019), “alphaInitializerFoam”, Mendeley Data, v2
 
-http://dx.doi.org/10.17632/wg4sx7sc57.1
+http://dx.doi.org/10.17632/wg4sx7sc57.2
 
 
 ## Compatibility
@@ -82,7 +82,9 @@ Arch:  LSB;label=32;scalar=64
 
 ## Demos
 
-Three demo cases are available in http://dx.doi.org/10.17632/wg4sx7sc57.1 (```alphaInitializerFoamTut.tar.gz```).
+Three demo cases are available in http://dx.doi.org/10.17632/wg4sx7sc57.2 (```alphaInitializerFoamTut.tar.gz```).
+
+**The commands are integrated into the ```Allrun``` script for each case.**
 
 ### ```damBreak```
 
@@ -101,6 +103,22 @@ Three demo cases are available in http://dx.doi.org/10.17632/wg4sx7sc57.1 (```al
 ### ```dualPiDroplet```
 
 <img src="https://i.imgur.com/Dmr2J6h.png">
+
+
+## Attribution
+
+If you use ```alphaInitializerFoam``` in your academic projects, please cite this utility in general, you could use this BibTex entry:
+
+```css
+@misc{alphaInitializerFoam,
+  doi = {10.17632/wg4sx7sc57.2},
+  url = {http://dx.doi.org/10.17632/wg4sx7sc57.2},
+  author = {Dai, Dezhi},
+  title = {alphaInitializerFoam},
+  publisher = {Mendeley Data, v2},
+  year = {2019}
+}
+```
 
 
 ## Change Log
