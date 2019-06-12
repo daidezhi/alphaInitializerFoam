@@ -26,10 +26,9 @@ The basic idea of ```alphaInitializerFoam``` follows:
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Boolean_union.PNG" width="200"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Boolean_intersect.PNG" width="200">
 
-* then initialize the fraction value by normalizing the intersection volume with the cell one.
-
 *Figures above are from [Wikipedia](https://en.wikipedia.org/wiki/Constructive_solid_geometry).*
 
+* then initialize the fraction value by normalizing the intersection volume with the cell one.
 
 The .stl surface mesh loading and intersection operation in ```alphaInitializerFoam``` are from [libigl](https://libigl.github.io/) and [Cork](https://github.com/gilbo/cork) libs, respectively.
 
