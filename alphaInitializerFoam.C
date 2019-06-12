@@ -31,9 +31,9 @@ Description
         \verbatim
             Dai, Dezhi (2019).
             alphaInitializerFoam
-            Mendeley Data, V1
-            doi 10.17632/wg4sx7sc57.1
-            url http://dx.doi.org/10.17632/wg4sx7sc57.1
+            Mendeley Data, V2
+            doi 10.17632/wg4sx7sc57.2
+            url http://dx.doi.org/10.17632/wg4sx7sc57.2
         \endverbatim
 
 \*---------------------------------------------------------------------------*/
