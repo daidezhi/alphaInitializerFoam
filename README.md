@@ -37,6 +37,50 @@ The .stl surface mesh loading and intersection operation in ```alphaInitializerF
 
 ## Installation
 
+**Before compiling ```alphaInitializerFoam```, make sure that the OpenFOAM environment has been set properly.**
+
+1. Download ```alphaInitializerFoam``` from this page or http://dx.doi.org/10.17632/wg4sx7sc57.1
+
+2. Build ```libcork.a```
+```bash
+cd cork
+make
+```
+
+3. Build ```alphaInitializerFoam```
+```bash
+cd ..
+wmake
+```
+
+*All of the compiling commands above have been integrated into ```Allwmake``` script.*
+
+## Usage
+
+The usage of ```alphaInitializerFoam``` is simple:
+
+```
+Usage: alphaInitializerFoam [OPTIONS] <stl-file>
+Arguments:
+  <stl-file>        The input surface mesh in .stl format
+Options:
+  -case <dir>       Specify case directory to use (instead of the cwd)
+  -gas              Initialize the shape for gas phase
+  -doc              Display documentation in browser
+  -doc-source       Display source code in browser
+  -help             Display short help and exit
+  -help-compat      Display compatibility options and exit
+  -help-full        Display full help and exit
+
+Initialize the alpha (VOF) field with an input shape surface mesh in .stl
+format. The previous fluid shape will be retained.
+
+Using: OpenFOAM-v1812 (1812) (see www.OpenFOAM.com)
+Build: v1812
+Arch:  LSB;label=32;scalar=64
+
+```
+
 
 ## Contributors
 
