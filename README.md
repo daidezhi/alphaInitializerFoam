@@ -36,7 +36,7 @@ The .stl surface mesh loading and intersection operation in ```alphaInitializerF
 
 **Before compiling ```alphaInitializerFoam```, make sure that the OpenFOAM environment has been set properly.**
 
-1. Download ```alphaInitializerFoam``` from this page or http://dx.doi.org/10.17632/wg4sx7sc57.1
+1. Download ```alphaInitializerFoam``` from this page or http://dx.doi.org/10.17632/wg4sx7sc57.2
 
 2. Build ```libcork.a```
 ```bash
