@@ -92,7 +92,11 @@ Three demo cases are available in http://dx.doi.org/10.17632/wg4sx7sc57.1 (```al
 
 <img src="https://i.imgur.com/qhpNmFU.png">
 
+
 ### ```dualPiBubble```
+
+<img src="https://i.imgur.com/utTNzC1.png">
+
 
 ### ```dualPiDroplet```
 
