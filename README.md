@@ -86,11 +86,11 @@ Three demo cases are available in http://dx.doi.org/10.17632/wg4sx7sc57.1 (```al
 
 ### ```damBreak```
 
-<img src="https://i.imgur.com/xQNh65O.png" width="400">
+<img src="https://i.imgur.com/xQNh65O.png">
 
-<img src="https://i.imgur.com/B8hqsuZ.png" width="1200">
+<img src="https://i.imgur.com/B8hqsuZ.png">
 
-<img src="https://i.imgur.com/qhpNmFU.png" width="1200">
+<img src="https://i.imgur.com/qhpNmFU.png">
 
 ### ```dualPiBubble```
 
