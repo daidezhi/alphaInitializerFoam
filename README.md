@@ -89,6 +89,17 @@ Three demo cases are available in http://dx.doi.org/10.17632/wg4sx7sc57.1 (```al
 
 ### ```damBreak```
 
+### ```dualPiBubble```
+
+### ```dualPiDroplet```
+
+
+## Change Log
+
+### 06/11/2019
+
+* Initial release
+
 
 ## Contributors
 
