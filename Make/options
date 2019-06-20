@@ -11,6 +11,7 @@ EXE_LIBS = \
     -lfiniteVolume \
     -ldynamicFvMesh \
     -lmeshTools \
+    -lwaveModels \
     -lcork \
     -lmpfr \
     -lgmp \
