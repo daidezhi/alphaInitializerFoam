@@ -125,7 +125,7 @@ If you use ```alphaInitializerFoam``` in your academic projects, please cite thi
 
 ### 06/20/2019
 
-* Add support to wave model boundaries. Thanks to [guohuiqun](http://cfd-china.com/user/guohuiqun) @ [cfd-china](http://cfd-china.com/).
+* Add support to wave model boundaries. Thanks for [guohuiqun](http://cfd-china.com/user/guohuiqun) @ [cfd-china](http://cfd-china.com/).
 
 ### 06/11/2019
 
