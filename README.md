@@ -123,9 +123,13 @@ If you use ```alphaInitializerFoam``` in your academic projects, please cite thi
 
 ## Change Log
 
+### 06/20/2019
+
+* Add support to wave models. Thanks for [guohuiqun](http://cfd-china.com/user/guohuiqun) @ [cfd-china](http://cfd-china.com/).
+
 ### 06/11/2019
 
-* Initial release
+* Initial release.
 
 
 ## Contributors
