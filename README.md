@@ -1,5 +1,11 @@
 # alphaInitializerFoam
 
+---
+
+:warning: **IMPORTANT** :warning: The `alphaInitializerFoam` has been renamed as **`setVofField`** and is available at [geometricVofExt](https://github.com/daidezhi/geometricVofExt).
+
+---
+
 ## Introduction
 
 ```alphaInitializerFoam``` is a pre-processing utility designed to initialize the alpha (VOF) field with an input shape surface mesh in .stl format. It works on polyhedral unstructured meshes. The previous fluid shape will be retained.
